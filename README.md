@@ -1,5 +1,10 @@
 # astrolabe
 
+> **Archived 2026-09-07.** This repository was folded into
+> [constellation-works/observatory](https://github.com/constellation-works/observatory)
+> at `lib/astrolabe/` with full history (`git subtree add`). Work continues there;
+> nothing here is updated any more.
+
 Celestial data collection & analysis. A local library + CLI that fetches from public
 surveys (Gaia, SDSS, …) into a Parquet catalog, queries it with DuckDB, and runs pure
 analysis functions (cross-match, HR diagram) over astropy Tables.
